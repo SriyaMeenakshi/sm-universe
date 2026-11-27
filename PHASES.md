@@ -36,9 +36,9 @@ Status values: `Pending`, `In progress`, `Complete`, or `Blocked`. A phase is co
 
 | Phase | Scope | Status | Commit | Push |
 | --- | --- | --- | --- | --- |
-| 0 | Repository audit and implementation roadmap | Complete | pending | pending |
-| 1 | Next.js application foundation and shared design systems | Pending | — | — |
-| 2 | Hybrid hero and universe switching | Pending | — | — |
+| 0 | Repository audit and implementation roadmap | Complete | `ee2955e` | Pushed to `origin/feature/sm-universe-roadmap` |
+| 1 | Next.js application foundation and shared design systems | Complete | `74e169a` | Pushed to `origin/feature/sm-universe-roadmap` |
+| 2 | Hybrid hero and universe switching | Complete | `936706f` | Pushed to `origin/feature/sm-universe-roadmap` |
 | 3 | TechVerse portfolio | Pending | — | — |
 | 4 | VisualVerse portfolio | Pending | — | — |
 | 5 | Supabase schema, security, storage, and content services | Pending | — | — |
@@ -55,16 +55,16 @@ Status values: `Pending`, `In progress`, `Complete`, or `Blocked`. A phase is co
 
 ## Phase 1 — Application foundation
 
-- [ ] Add the Next.js App Router, React, TypeScript, Tailwind CSS, Motion for React, and Lucide React with compatible stable versions.
-- [ ] Add global layout, typography, metadata, favicon, shared components, responsive navigation, and centralized tokens for both universes.
-- [ ] Keep the initial app buildable without external credentials.
-- [ ] Run the relevant checks, review the phase diff, and commit.
+- [x] Add the Next.js App Router, React, TypeScript, Tailwind CSS, Motion for React, and Lucide React with compatible stable versions.
+- [x] Add global layout, typography, metadata, responsive navigation, and centralized tokens for both universes.
+- [x] Keep the initial app buildable without external credentials.
+- [x] Run typecheck, lint, and production build; review the phase diff and commit.
 
 ## Phase 2 — Hybrid hero and universe switching
 
-- [ ] Build the profile/avatar placeholder composition, animated roles, universe toggle, transition, and persistent selection.
-- [ ] Add mobile behavior, reduced-motion support, and functional navigation/CTA links.
-- [ ] Run the relevant checks, review the phase diff, and commit.
+- [x] Build the profile/avatar placeholder composition, animated roles, universe toggle, transition, and persistent selection.
+- [x] Add mobile behavior, reduced-motion support, and functional navigation/CTA links.
+- [x] Run typecheck, lint, and production build; review the phase diff and commit.
 
 ## Phase 3 — TechVerse
 
@@ -100,4 +100,3 @@ Status values: `Pending`, `In progress`, `Complete`, or `Blocked`. A phase is co
 - [ ] Document install, environment, Supabase setup/migrations/admin, content workflow, and Vercel deployment.
 - [ ] Verify final production build and ensure `.env` files, private media, credentials, and build artifacts are excluded.
 - [ ] Commit documentation. Deploy only when the required external accounts and configuration are available.
-

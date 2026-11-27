@@ -38,7 +38,7 @@ Status values: `Pending`, `In progress`, `Complete`, or `Blocked`. A phase is co
 | --- | --- | --- | --- | --- |
 | 0 | Repository audit and implementation roadmap | Complete | `ee2955e` | Pushed to `origin/feature/sm-universe-roadmap` |
 | 1 | Next.js application foundation and shared design systems | Complete | `74e169a` | Pushed to `origin/feature/sm-universe-roadmap` |
-| 2 | Hybrid hero and universe switching | Complete | pending | pending |
+| 2 | Hybrid hero and universe switching | Complete | `936706f` | Pushed to `origin/feature/sm-universe-roadmap` |
 | 3 | TechVerse portfolio | Pending | — | — |
 | 4 | VisualVerse portfolio | Pending | — | — |
 | 5 | Supabase schema, security, storage, and content services | Pending | — | — |

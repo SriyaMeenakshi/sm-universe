@@ -37,8 +37,8 @@ Status values: `Pending`, `In progress`, `Complete`, or `Blocked`. A phase is co
 | Phase | Scope | Status | Commit | Push |
 | --- | --- | --- | --- | --- |
 | 0 | Repository audit and implementation roadmap | Complete | `ee2955e` | Pushed to `origin/feature/sm-universe-roadmap` |
-| 1 | Next.js application foundation and shared design systems | Complete | pending | pending |
-| 2 | Hybrid hero and universe switching | Pending | — | — |
+| 1 | Next.js application foundation and shared design systems | Complete | `74e169a` | Pushed to `origin/feature/sm-universe-roadmap` |
+| 2 | Hybrid hero and universe switching | Complete | pending | pending |
 | 3 | TechVerse portfolio | Pending | — | — |
 | 4 | VisualVerse portfolio | Pending | — | — |
 | 5 | Supabase schema, security, storage, and content services | Pending | — | — |
@@ -62,9 +62,9 @@ Status values: `Pending`, `In progress`, `Complete`, or `Blocked`. A phase is co
 
 ## Phase 2 — Hybrid hero and universe switching
 
-- [ ] Build the profile/avatar placeholder composition, animated roles, universe toggle, transition, and persistent selection.
-- [ ] Add mobile behavior, reduced-motion support, and functional navigation/CTA links.
-- [ ] Run the relevant checks, review the phase diff, and commit.
+- [x] Build the profile/avatar placeholder composition, animated roles, universe toggle, transition, and persistent selection.
+- [x] Add mobile behavior, reduced-motion support, and functional navigation/CTA links.
+- [x] Run typecheck, lint, and production build; review the phase diff and commit.
 
 ## Phase 3 — TechVerse
 
